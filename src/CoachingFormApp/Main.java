@@ -15,8 +15,8 @@ public class Main {
         String newPositionArea;
         String newEmployeeNumber;
         //String placeholder;
-        int x = 3;
-        int y = x++;
+//        int x = 3;
+//        int y = x++;
 
         Employee employee1 = new Employee("Jeremy Gathing", new Position("Agent", "Home Theater"), "a308757");
         Employee employee2 = new Employee("Steve Jones", new Position("Double Agent", "Home Theater"),
@@ -32,7 +32,7 @@ public class Main {
         employees.add(employee2);
         employees.add(employee3);
 
-        System.out.println("Follow steps to enter up to 5 new employees (or ENTER to finish");
+        System.out.println("Follow steps to enter in new employees (or ENTER to finish");
 
 //        for (int i = 0; i < 9; i++) {
 
